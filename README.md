@@ -26,11 +26,13 @@ Smart ESP32-S3 telemetry nodes with on-device TinyML run zero-latency hazard det
 
 ## 5. Technology Stack
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python, FastAPI
-- Machine Learning: TensorFlow, NumPy
-- Database: PostgreSQL
-- Deployment: Docker / Cloud
+- Hardware / Microcontroller: ESP32-S3
+- Sensors: DHT11 (Temperature & Humidity), MQ-2 (Smoke & Gas)
+- Programming Languages: C++, HTML5, JavaScript
+- AI/ML Frameworks: TinyML, Edge Impulse Studio, TensorFlow Lite for Microcontrollers
+- Frontend / UI: HTML5, Leaflet.js (GIS Mapping), Chart.js (Real-time Telemetry)
+- Backend & Database: Supabase, REST APIs
+- Development Tools: Arduino IDE
 
 ## 6. Architecture
 

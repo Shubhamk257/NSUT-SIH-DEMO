@@ -10,19 +10,19 @@
 
 ## 2. Problem Statement
 
-Farmers may have difficulty identifying crop diseases at an early stage. Manual identification can be slow and may depend on access to agricultural experts.
+India lacks a real-time, localized system to detect and alert authorities and communities about environmental hazards like floods, forest fires, and pollution before they escalate into disasters.
 
 ## 3. Proposed Solution
 
-CropGuard allows a user to upload a crop image. The backend processes the image using a machine-learning model, predicts the likely disease, and returns basic advisory information.
+Smart ESP32-S3 telemetry nodes with on-device TinyML run zero-latency hazard detection on low-cost hardware, streaming filtered alerts to a real-time dashboard while staying resilient offline in remote, disaster-prone zones.
 
 ## 4. Key Features
 
-- Crop image upload
-- Disease prediction
-- Confidence score
-- Advisory information
-- Prediction history
+- Multi-sensor edge data collection
+- On-device TinyML anomaly detection
+- Bandwidth-efficient critical alert filtering
+- LoRaWAN long-range wireless transmission
+- Solar-powered, rugged, offline-resilient deployment
 
 ## 5. Technology Stack
 

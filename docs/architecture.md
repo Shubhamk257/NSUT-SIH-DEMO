@@ -22,27 +22,27 @@ The system follows an **Edge → Gateway → Cloud → Dashboard** pipeline, wit
 │  Gas/Chemical Leak      │
 │                         │
 │  ┌───────────────────┐  │
-│  │   ESP32-S3 MCU     │  │
-│  │  + TinyML (Edge    │  │
-│  │    Impulse model)  │  │
+│  │   ESP32-S3 MCU    │  │
+│  │  + TinyML (Edge   │  │
+│  │    Impulse model) │  │
 │  └─────────┬─────────┘  │
-│            │ Filtered    │
-│            │ critical    │
-│            │ alerts only │
-│  Solar Panel + Battery   │
-│  Weatherproof Enclosure  │
+│            │ Filtered   │
+│            │ critical   │
+│            │ alerts only│
+│  Solar Panel + Battery  │
+│  Weatherproof Enclosure │
 └────────────┬────────────┘
              │ LoRaWAN
              ▼
 ┌─────────────────────────┐
-│    LoRaWAN GATEWAY       │
-│  Aggregates node data    │
-│  Forwards to cloud       │
+│    LoRaWAN GATEWAY      │
+│  Aggregates node data   │
+│  Forwards to cloud      │
 └────────────┬────────────┘
              │ Internet (MQTT/HTTPS)
              ▼
 ┌─────────────────────────┐
-│      CLOUD PLATFORM      │
+│      CLOUD PLATFORM     │
 │                         │
 │  Supabase (PostgreSQL)  │
 │  - Sensor data storage  │
@@ -52,7 +52,7 @@ The system follows an **Edge → Gateway → Cloud → Dashboard** pipeline, wit
              │ REST/Realtime API
              ▼
 ┌─────────────────────────┐
-│  DASHBOARD & ALERTS      │
+│  DASHBOARD & ALERTS     │
 │                         │
 │  HTML5 + Tailwind CSS   │
 │  Chart.js (analytics)   │

@@ -111,8 +111,8 @@ See [assets/screenshots/README.md](assets/screenshots/README.md) for examples an
 ## 11. Installation
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_PROJECT_FOLDER>
+git clone https://github.com/Shubhamk257/NSUT-SIH-DEMO.git
+cd NSUT-SIH-DEMO
 pip install -r requirements.txt
 ```
 

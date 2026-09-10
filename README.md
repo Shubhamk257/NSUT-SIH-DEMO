@@ -120,16 +120,11 @@ pip install -r requirements.txt
 
 ## 12. Run
 
-```bash
-uvicorn src.main:app --reload
-```
-
 Replace these commands with the actual setup and run instructions for your project.
-
 
 ## 13. Future Scope
 
-Describe realistic improvements or extensions that can be made to the project.
+The system can be expanded to support landslide and flash-flood prediction by adding soil moisture, slope, and water-level sensors. Future versions could combine sensor data with satellite and weather-API data for better accuracy, along with a mobile app for citizen alerts. Its modular design also allows scaling to a pan-India network in collaboration with disaster management authorities. In the long term, federated learning could help improve on-device AI models while keeping data private.
 
 ## Important
 
